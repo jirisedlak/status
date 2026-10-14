@@ -9,6 +9,9 @@ sites:
     url: https://app.takejournal.com/api/auth/status
   - name: TakeJournal site
     url: https://takejournal.com/
+  # a test of the alert (removed after it): an address that answers 404
+  - name: Alert test
+    url: https://takejournal.com/upptime-alert-test
 
 assignees:
   - jirisedlak
