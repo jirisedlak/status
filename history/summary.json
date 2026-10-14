@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 641,
-    "timeDay": 641,
-    "timeWeek": 641,
-    "timeMonth": 641,
-    "timeYear": 641,
+    "time": 650,
+    "timeDay": 650,
+    "timeWeek": 650,
+    "timeMonth": 650,
+    "timeYear": 650,
     "dailyMinutesDown": {}
   },
   {
@@ -28,31 +28,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 708,
-    "timeDay": 708,
-    "timeWeek": 708,
-    "timeMonth": 708,
-    "timeYear": 708,
+    "time": 682,
+    "timeDay": 682,
+    "timeWeek": 682,
+    "timeMonth": 682,
+    "timeYear": 682,
     "dailyMinutesDown": {}
-  },
-  {
-    "name": "Alert test",
-    "url": "https://takejournal.com/upptime-alert-test",
-    "icon": "https://icons.duckduckgo.com/ip3/takejournal.com.ico",
-    "slug": "alert-test",
-    "status": "down",
-    "uptime": "59.46%",
-    "uptimeDay": "59.46%",
-    "uptimeWeek": "59.46%",
-    "uptimeMonth": "59.46%",
-    "uptimeYear": "59.46%",
-    "time": 465,
-    "timeDay": 465,
-    "timeWeek": 465,
-    "timeMonth": 465,
-    "timeYear": 465,
-    "dailyMinutesDown": {
-      "2026-10-14": 0
-    }
   }
 ]
