@@ -1,31 +1,27 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+# TakeJournal's outside uptime check: the app and the site,
+# every five minutes from GitHub Actions. A site down opens an issue here, assigned to the owner, so GitHub notifies
+# him; it closes when the site is up again.
+owner: jirisedlak
+repo: status
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Secret Site
-    url: $SECRET_SITE
+  # the address the app's sign-in page calls on every visit; it answers 200 with the sign-in's settings
+  - name: TakeJournal app
+    url: https://app.takejournal.com/api/auth/status
+  - name: TakeJournal site
+    url: https://takejournal.com/
+
+assignees:
+  - jirisedlak
+
+# keep every outage in the history, also those shorter than 15 minutes
+skipDeleteIssues: true
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  baseUrl: /status
+  name: TakeJournal status
+  introTitle: "**TakeJournal** status"
+  introMessage: The TakeJournal app and its web site, checked every five minutes from outside.
   navbar:
     - title: Status
       href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
-
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
