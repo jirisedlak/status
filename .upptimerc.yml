@@ -1,6 +1,5 @@
-# TakeJournal's outside uptime check: the app and the site,
-# every five minutes from GitHub Actions. A site down opens an issue here, assigned to the owner, so GitHub notifies
-# him; it closes when the site is up again.
+# TakeJournal's outside uptime check: the app and the site, every five minutes from GitHub Actions. A site down
+# opens an issue here, assigned to the owner, whom GitHub notifies; it closes when the site is up again.
 owner: jirisedlak
 repo: status
 
