@@ -4,19 +4,19 @@
     "url": "https://app.takejournal.com/api/auth/status",
     "icon": "https://icons.duckduckgo.com/ip3/app.takejournal.com.ico",
     "slug": "take-journal-app",
-    "status": "down",
-    "uptime": "99.98%",
-    "uptimeDay": "99.91%",
-    "uptimeWeek": "99.98%",
-    "uptimeMonth": "99.98%",
-    "uptimeYear": "99.98%",
-    "time": 2398,
-    "timeDay": 10567,
-    "timeWeek": 2398,
-    "timeMonth": 2398,
-    "timeYear": 2398,
+    "status": "up",
+    "uptime": "95.76%",
+    "uptimeDay": "82.34%",
+    "uptimeWeek": "95.76%",
+    "uptimeMonth": "95.76%",
+    "uptimeYear": "95.76%",
+    "time": 2233,
+    "timeDay": 7182,
+    "timeWeek": 2233,
+    "timeMonth": 2233,
+    "timeYear": 2233,
     "dailyMinutesDown": {
-      "2026-10-18": 1
+      "2026-10-18": 254
     }
   },
   {
@@ -24,17 +24,19 @@
     "url": "https://takejournal.com/",
     "icon": "https://icons.duckduckgo.com/ip3/takejournal.com.ico",
     "slug": "take-journal-site",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 2405,
-    "timeDay": 10590,
-    "timeWeek": 2405,
-    "timeMonth": 2405,
-    "timeYear": 2405,
-    "dailyMinutesDown": {}
+    "status": "up",
+    "uptime": "95.78%",
+    "uptimeDay": "82.43%",
+    "uptimeWeek": "95.78%",
+    "uptimeMonth": "95.78%",
+    "uptimeYear": "95.78%",
+    "time": 2235,
+    "timeDay": 7185,
+    "timeWeek": 2235,
+    "timeMonth": 2235,
+    "timeYear": 2235,
+    "dailyMinutesDown": {
+      "2026-10-18": 253
+    }
   }
 ]
