@@ -16,11 +16,16 @@ assignees:
 # keep every outage in the history, also those shorter than 15 minutes
 skipDeleteIssues: true
 
+# the public page (#101): status.takejournal.com, a CNAME to jirisedlak.github.io set by the owner on 2026-10-19
 status-website:
-  baseUrl: /status
+  cname: status.takejournal.com
   name: TakeJournal status
+  logoUrl: https://app.takejournal.com/icon-192.png
+  favicon: https://app.takejournal.com/icon-192.png
   introTitle: "**TakeJournal** status"
   introMessage: The TakeJournal app and its web site, checked every five minutes from outside.
   navbar:
     - title: Status
       href: /
+    - title: TakeJournal
+      href: https://takejournal.com/
