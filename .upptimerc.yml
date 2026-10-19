@@ -1,5 +1,7 @@
-# TakeJournal's outside uptime check: the app and the site, every five minutes from GitHub Actions. A site down
-# opens an issue here, assigned to the owner, whom GitHub notifies; it closes when the site is up again.
+# TakeJournal's outside uptime check: the app and the site, every five minutes from GitHub Actions. The owner's NAS
+# starts each run (repository_dispatch "uptime", takejournal#957: GitHub's own five-minute schedule ran only every few
+# hours); the schedule stays as the fallback. A site down opens an issue here, assigned to the owner, whom GitHub
+# notifies; it closes when the site is up again.
 owner: jirisedlak
 repo: status
 
